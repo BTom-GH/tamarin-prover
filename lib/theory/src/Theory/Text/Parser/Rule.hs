@@ -67,7 +67,7 @@ ruleAttribute :: Parser (Maybe RuleAttribute)
 ruleAttribute = asum
     [ symbol "colour=" *> (Just . RuleColor <$> parseColor)
     , symbol "color="  *> (Just . RuleColor <$> parseColor)
-    , symbol "process="  *> (Just . Role <$> parseRole)
+    , symbol "process="  *> parseAndIgnore
     , symbol "derivchecks" *> ignore
     , symbol "no_derivcheck" *> ignore
     , symbol "role=" *> (Just . Role <$> parseRole)

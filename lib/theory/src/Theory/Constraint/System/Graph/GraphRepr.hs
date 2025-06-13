@@ -23,8 +23,8 @@ module Theory.Constraint.System.Graph.GraphRepr (
     , cNodes
     , cEdges
     , toEdgeList
-    , extractRole
-    , isRoleAttribute
+    , extractCluster
+    , isClusterAttribute
     , getNodeRole
     , getNodeName
     , groupNodesByRole
@@ -37,10 +37,15 @@ module Theory.Constraint.System.Graph.GraphRepr (
 import           Extension.Data.Label
 import qualified Theory.Constraint.System as Sys
 import qualified Theory.Model             as M
-import qualified Theory                   as Th
+import qualified Theory.Model.Rule        as MR
 import qualified Data.Map                 as Map
 
 import qualified Data.Set                 as S
+
+import           Theory.Text.Pretty
+import qualified Theory.Sapic.Process     as SP
+import           Theory.Sapic             (toLNFact, toLFormula)
+import qualified Theory                   as Th
 
 import Data.Char (isDigit)
 import Data.List.Split (splitOn)
@@ -134,14 +139,44 @@ addCluster repr nodesByGroup nameSuffix =
 -- Clusturing by role name 
 ----------------------------------------------------
 
-extractRole :: Th.RuleACInst -> Maybe String
-extractRole ru = case find isRoleAttribute (Th.ruleAttributes ru) of
+extractCluster :: Th.RuleACInst -> Maybe String
+extractCluster ru = case find isClusterAttribute (Th.ruleAttributes ru) of
   Just (Th.Role roleName) -> Just roleName
-  _                         -> Nothing
-
-isRoleAttribute :: Th.RuleAttribute -> Bool
-isRoleAttribute (Th.Role _) = True
-isRoleAttribute _            = False
+  
+  Just (Th.Process p) -> 
+    let 
+      result = SP.prettySapicTopLevel' f p
+      sanitizedName = "Process_" ++ sanitizeForDotId result
+    in Just sanitizedName
+    where 
+      f l a r rest _ = render $ MR.prettyRuleRestr (g l) (g a) (g r) (h rest)
+      g = map toLNFact
+      h = map toLFormula
+      
+      -- Convert generated process string to a valid DOT identifier
+      sanitizeForDotId :: String -> String
+      sanitizeForDotId str = 
+        let (_, result) = foldl processChar (False, "") (take 20 str)
+        in result
+        where
+          processChar (wasUnderscore, acc) c = 
+            let (newState, chars) = safeChar c wasUnderscore
+            in (newState, acc ++ chars)
+      
+      safeChar :: Char -> Bool -> (Bool,String)
+      safeChar c wasUnderscore
+        | c `elem` ['a'..'z'] = (False,[c])
+        | c `elem` ['A'..'Z'] = (False,[c])
+        | c `elem` ['0'..'9'] = (False,[c])
+        | c == '+' = (False, "plus")
+        | otherwise = if wasUnderscore then (True, "") else (True, "_")
+  
+  _ -> Nothing
+  
+isClusterAttribute :: Th.RuleAttribute -> Bool
+isClusterAttribute (Th.Role _) = True
+isClusterAttribute (Th.Process _) = True
+isClusterAttribute _            = False
 
 
 groupNodesByRole :: [Node] -> Map.Map String [Node]
@@ -157,7 +192,7 @@ getNodeName node = "node" ++ show (get nNodeId node)
 
 getNodeRole :: Node -> Maybe String
 getNodeRole node = case get nNodeType node of
-  SystemNode ru -> extractRole ru
+  SystemNode ru -> extractCluster ru
   _             -> Nothing
 
 
