@@ -1,0 +1,187 @@
+/ccs15/Attack_TPM_Envelope_analyzed-diff-noprove.spthy
+The warnings do not match!
+There was an error while reading case-studies-regression/accountability/csf21-acc-unbounded/previous/ct_analyzed.spthy
+There was an error while reading case-studies-regression/accountability/csf21-acc-unbounded/previous/ocsps-msr_analyzed.spthy
+There was an error while reading case-studies-regression/accountability/csf21-acc-unbounded/previous/ocsps-msr-untrusted_analyzed.spthy
+There was an error while reading case-studies-regression/accountability/csf21-acc-unbounded/previous/whodunit_analyzed.spthy
+There was an error while reading case-studies-regression/csf18-xor/chaum_offline_anonymity_analyzed-oracle-chaum.spthy
+/csf18-xor/CH07_analyzed.spthy
+The warnings do not match!
+There was an error while reading case-studies-regression/csf18-xor/diff-models/LAK06-UK1_analyzed-diff.spthy
+There was an error while reading case-studies-regression/csf18-xor/diff-models/CH07-UK1_analyzed-diff.spthy
+There was an error while reading case-studies-regression/csf18-xor/diff-models/KCL07-UK3_attack_analyzed-diff-noprove.spthy
+There was an error while reading case-studies-regression/csf18-xor/diff-models/KCL07-UK2_analyzed-diff.spthy
+There was an error while reading case-studies-regression/csf18-xor/diff-models/CH07-UK2_analyzed-diff.spthy
+There was an error while reading case-studies-regression/csf18-xor/diff-models/CH07-UK3_analyzed-diff-obseqonly.spthy
+/sapic/fast/feature-progress/mini2_analyzed.spthy
+The warnings do not match!
+/sapic/fast/feature-secret-channel/U2F_analyzed.spthy
+The warnings do not match!
+/sapic/fast/Yubikey/Yubikey_analyzed.spthy
+The warnings do not match!
+/sapic/fast/MoedersheimWebService/set-abstr_analyzed.spthy
+The warnings do not match!
+/sapic/fast/MoedersheimWebService/set-abstr-lookup_analyzed.spthy
+The warnings do not match!
+/sapic/fast/GJM-contract/contract_analyzed.spthy
+One or multiple rules do not match!
+/sapic/fast/GJM-contract/contract_analyzed.spthy
+The warnings do not match!
+/sapic/fast/feature-locations/licensing_analyzed.spthy
+The warnings do not match!
+/sapic/fast/feature-locations/AC_analyzed.spthy
+One or multiple rules do not match!
+/sapic/fast/feature-locations/OTP_analyzed.spthy
+The warnings do not match!
+/sapic/fast/basic/exclusive-secrets_analyzed.spthy
+One or multiple rules do not match!
+/sapic/slow/PKCS11/pkcs11-templates_analyzed.spthy
+One or multiple rules do not match!
+/sapic/slow/PKCS11/pkcs11-templates_analyzed.spthy
+The warnings do not match!
+/sapic/slow/encWrapDecUnwrap/encwrapdecunwrap_analyzed.spthy
+One or multiple rules do not match!
+/sapic/slow/encWrapDecUnwrap/encwrapdecunwrap_analyzed.spthy
+The warnings do not match!
+/sapic/slow/encWrapDecUnwrap/encwrapdecunwrap-nolocks_analyzed.spthy
+One or multiple rules do not match!
+/sapic/slow/encWrapDecUnwrap/encwrapdecunwrap-nolocks_analyzed.spthy
+The warnings do not match!
+/sapic/slow/feature-locations/AC_sid_with_attack_analyzed.spthy
+One or multiple rules do not match!
+/csf12/STS_MAC_fix2_analyzed.spthy
+The warnings do not match!
+/csf12/KEA_plus_KI_KCI_analyzed.spthy
+The warnings do not match!
+/csf12/JKL_TS1_2008_KI_analyzed.spthy
+The warnings do not match!
+/csf12/NAXOS_eCK_analyzed.spthy
+The warnings do not match!
+/csf12/JKL_TS1_2004_KI_analyzed.spthy
+The warnings do not match!
+/csf12/STS_MAC_fix1_analyzed.spthy
+The warnings do not match!
+/csf12/NAXOS_eCK_PFS_analyzed.spthy
+The warnings do not match!
+/csf12/KEA_plus_KI_KCI_wPFS_analyzed.spthy
+The warnings do not match!
+/csf12/UM_PFS_analyzed.spthy
+The warnings do not match!
+/csf12/UM_wPFS_analyzed.spthy
+The warnings do not match!
+/csf12/JKL_TS2_2008_KI_wPFS_analyzed.spthy
+The warnings do not match!
+/csf12/SignedDH_PFS_analyzed.spthy
+The warnings do not match!
+/csf12/STS_MAC_analyzed.spthy
+The warnings do not match!
+/csf12/DH2_original_analyzed.spthy
+The warnings do not match!
+/csf12/JKL_TS2_2004_KI_wPFS_analyzed.spthy
+The warnings do not match!
+/features/xor/basicfunctionality/xor0_analyzed.spthy
+The warnings do not match!
+There was an error while reading case-studies-regression/features/derivation-checks/fullEncryptionDerivationTests_analyzed.spthy
+There was an error while reading case-studies-regression/features/derivation-checks/hashOneWay_analyzed.spthy
+There was an error while reading case-studies-regression/features/derivation-checks/symEnc_analyzed.spthy
+There was an error while reading case-studies-regression/features/derivation-checks/revealingSignatureDerivationTest_analyzed.spthy
+There was an error while reading case-studies-regression/features/derivation-checks/manualEncryptionDecryption_analyzed.spthy
+There was an error while reading case-studies-regression/features/derivation-checks/signatureDerivationTest_analyzed.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Otway-Rees_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Yahalom-Lowe_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/WooLam_Pi_f_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Denning-Sacco-SK-Lowe_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Yahalom_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Nssk_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/AS_RPC_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/CCITT_X509_1_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Denning-Sacco-SK_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Wide_Mouthed_Frog_Lowe_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/CCITT_X509_1c_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/CCITT_X509_3_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Wide_Mouthed_Frog_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Yahalom_BAN_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/SpliceAS_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/AS_Concrete_RPC_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/SpliceAS_3_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Lowe_AS_Concrete_RPC_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/Nssk_amended_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/SpliceAS_2_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/AS_Modified_RPC_analyzed-auto-sources.spthy
+There was an error while reading case-studies-regression/features/auto-sources/spore/CCITT_X509_3_BAN_analyzed-auto-sources.spthy
+/related_work/StatVerif_ARR_CSF11/StatVerif_GM_Contract_Signing_analyzed.spthy
+The warnings do not match!
+/related_work/AIF_Moedersheim_CCS10/Keyserver_analyzed.spthy
+The warnings do not match!
+/related_work/TPM_DKRS_CSF11/TPM_Exclusive_Secrets_analyzed.spthy
+The warnings do not match!
+/related_work/TPM_DKRS_CSF11/Envelope_analyzed.spthy
+The warnings do not match!
+/related_work/YubiSecure_KS_STM12/Yubikey_and_YubiHSM_analyzed.spthy
+The warnings do not match!
+/related_work/YubiSecure_KS_STM12/Yubikey_and_YubiHSM_multiset_analyzed.spthy
+The warnings do not match!
+/post17/foo_eligibility_analyzed.spthy
+The warnings do not match!
+/post17/okamoto_receipt_freeness_analyzed-diff.spthy
+The warnings do not match!
+/post17/chaum_untraceability_analyzed-diff.spthy
+The warnings do not match!
+/post17/chaum_anonymity_analyzed-diff.spthy
+The warnings do not match!
+/post17/okamoto_vote_privacy_analyzed-diff.spthy
+The warnings do not match!
+/post17/okamoto_eligibility_analyzed.spthy
+The warnings do not match!
+/post17/chaum_unforgeability_analyzed.spthy
+The warnings do not match!
+/post17/foo_vote_privacy_analyzed-diff.spthy
+The warnings do not match!
+/regression/trace/issue527_analyzed.spthy
+The warnings do not match!
+/regression/trace/issue216_analyzed.spthy
+The warnings do not match!
+The time changed from        51.03s to    174.62s in /csf19-wrapping/siv_analyzed-oracle-siv-wrapping.spthy
+  The steps changed from  875 steps to  888 steps in Counter_Monotonicity
+  The steps changed from  426 steps to  607 steps in Key_IntegrityAndConfidentiality
+/ake/bilinear/Scott_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/Joux_EphkRev_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/TAK1_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/Chen_Kudla_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/TAK1_eCK_like_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/Chen_Kudla_eCK_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/Joux_analyzed.spthy
+The warnings do not match!
+/ake/bilinear/Scott_EphkRev_analyzed.spthy
+The warnings do not match!
+/ake/dh/UM_three_pass_combined_fixed_analyzed.spthy
+The warnings do not match!
+/ake/dh/DHKEA_NAXOS_C_eCK_PFS_keyreg_partially_matching_analyzed.spthy
+The warnings do not match!
+/ake/dh/NAXOS_eCK_analyzed.spthy
+The warnings do not match!
+/ake/dh/NAXOS_eCK_PFS_analyzed.spthy
+The warnings do not match!
+/ake/dh/UM_three_pass_combined_analyzed.spthy
+The warnings do not match!
+/ake/dh/DHKEA_NAXOS_C_eCK_PFS_partially_matching_analyzed.spthy
+The warnings do not match!
+/ake/dh/UM_one_pass_fix_analyzed.spthy
+The warnings do not match!
+/ake/dh/UM_three_pass_analyzed.spthy
+The warnings do not match!
+/ake/dh/UM_one_pass_attack_analyzed.spthy
+The warnings do not match!
+
+--------------------------------------------------------------------------------
+
+There were differences in the results of the lemmas, or in the rules, or in the equations, or in the builtins, or in the functions, or in the warnings, or the files itself could not be parsed!
+For more information, run 'diff -r case-studies-regression case-studies'
+
+Time elapsed: 2:18:31s

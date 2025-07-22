@@ -4,11 +4,11 @@ dist
 dist-newstyle
 cabal-dev
 testbed
-case-studies/**/*.spthy
-case-studies/**/system.info
-case-studies-regression/fast-tests/system.info
-case-studies-sapic
-case-studies-sequential
+#case-studies/**/*.spthy
+#case-studies/**/system.info
+#case-studies-regression/fast-tests/system.info
+#case-studies-sapic
+#case-studies-sequential
 tamarin-prover-img
 .cabal-sandbox/
 cabal-sandbox/
